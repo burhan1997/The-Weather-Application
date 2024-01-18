@@ -21,7 +21,6 @@ This weather application is designed to provide users with accurate and real-tim
 
 - [ ] **Location Customization:** Allow users to set and customize preferred locations for accurate weather updates.
 
-- [ ] **Weather Alerts:** Implement timely alerts for severe weather conditions to ensure user safety.
 
 ## Nice-to-Have Features
 
