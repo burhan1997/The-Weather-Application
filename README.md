@@ -34,7 +34,7 @@ This weather application is designed to provide users with accurate and real-tim
 ## Public APIs in Use
 
 I need to have some API to access in order to get both the weather information as well as the location information.
-- To get the weather information I am going to use the dark sky API = **(https://open-meteo.com)**
+- To get the weather information I am going to use this API = **(https://open-meteo.com)**
 
 
 ## Contact Information
