@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather conditions.
+This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather conditions. As soon as we find a location that we want it'll show us the status give us an icon as well as our wind speed, temperature and precipitation.
 
 ## Project Requirements
 
@@ -31,11 +31,10 @@ This weather application is designed to provide users with accurate and real-tim
 
 - [ ] **Dark Mode:** Implement a visually pleasing dark mode for better user experience during low-light conditions.
 
+## Public APIs in Use
 
-## Company Brand/Color Palette
-
-**Company:** [Name of Company]  
-**Color Palette:** [Specify the colors or attach a reference image]
+I need to have some API to access in order to get both the weather information as well as the location information.
+- To get the weather information I am going to use the dark sky API = **(https://open-meteo.com)**
 
 
 ## Contact Information
