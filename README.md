@@ -35,10 +35,7 @@ This weather application is designed to provide users with accurate and real-tim
 I need to have some API to access in order to get both the weather information as well as the location information.
 - To get the weather information I am going to use this API = **(https://openweathermap.org)**
 
-## Screenshots
-![Image Description](images/Ekran Resmi 2024-01-23 23.37.40.png)
-![Image Description](images/Ekran Resmi 2024-01-23 23.37.56.png)
-![Image Description](images/Ekran Resmi 2024-01-23 23.38.15.png)
+
 ## Contact Information
 
 For any inquiries or feedback, please contact:
