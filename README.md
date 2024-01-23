@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather conditions. As soon as we find a location that we want it'll show us the status give us an icon as well as our wind speed, temperature and precipitation.
+This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather condition. As soon as we find a location that we want it'll show us the status give us an icon as well as our wind speed, temperature and precipitation. When the user enters our website, they can indent the city they want. At the same time, a photo of the indented city is adapted to the background. With the Toggle option, allows users to switch between metric and imperial units (e.g., Celsius and Fahrenheit, and the wind speed in km/h or mph). It triggers a new fetch of weather data with the selected unit.
 
 ## Project Requirements
 
@@ -17,25 +17,28 @@ This weather application is designed to provide users with accurate and real-tim
 
 - [x] **Current Weather Conditions:** Display real-time temperature, wind speed, and precipitation for the user's selected location.
 
-- [ ] **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
+- [x] **Background Image:** The user should see a photo of the city they type in the search bar. 
 
-- [ ] **Location Customization:** Allow users to set and customize preferred locations for accurate weather updates.
+- [x] **Toggle feature:** The user should be able to change the units of temperature and wind speed. 
 
 
 ## Nice-to-Have Features
 
-- [ ] **Interactive Maps:** Integrate maps for users to visualize weather patterns and explore forecasts geographically.
+- [-] **Interactive Maps:** Integrate maps for users to visualize weather patterns and explore forecasts geographically.
 
-- [ ] **Social Sharing:** Enable users to share weather updates on social media platforms.
+- [-] **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
 
-- [ ] **Dark Mode:** Implement a visually pleasing dark mode for better user experience during low-light conditions.
+- [-] **Dark Mode:** Implement a visually pleasing dark mode for better user experience during low-light conditions.
 
 ## Public APIs in Use
 
 I need to have some API to access in order to get both the weather information as well as the location information.
 - To get the weather information I am going to use this API = **(https://openweathermap.org)**
 
-
+## Screenshots
+![Resim Açıklaması](images/Ekran Resmi 2024-01-23 23.38.15.jpg)
+![Resim Açıklaması](images/Ekran Resmi 2024-01-23 23.37.40.jpg)
+![Resim Açıklaması](images/Ekran Resmi 2024-01-23 23.37.56.jpg)
 ## Contact Information
 
 For any inquiries or feedback, please contact:
