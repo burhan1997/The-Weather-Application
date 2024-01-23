@@ -84,3 +84,15 @@ h1.temp {
   top: 0;
   left: 20px;
 }
+
+@media screen and (max-width: 600px) {
+
+  .card {
+    padding: 1em;
+  }
+
+  h1.temp {
+    font-size: 150%;
+  
+  }
+}
