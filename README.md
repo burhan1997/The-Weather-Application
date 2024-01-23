@@ -36,9 +36,9 @@ I need to have some API to access in order to get both the weather information a
 - To get the weather information I am going to use this API = **(https://openweathermap.org)**
 
 ## Screenshots
-![Resim Açıklaması](images/Ekran Resmi 2024-01-23 23.37.40.png)
-![Resim Açıklaması](images/Ekran Resmi 2024-01-23 23.37.56.png)
-![Resim Açıklaması](images/Ekran Resmi 2024-01-23 23.38.15.png)
+![Image Description](images/Ekran Resmi 2024-01-23 23.37.40.png)
+![Image Description](images/Ekran Resmi 2024-01-23 23.37.56.png)
+![Image Description](images/Ekran Resmi 2024-01-23 23.38.15.png)
 ## Contact Information
 
 For any inquiries or feedback, please contact:
