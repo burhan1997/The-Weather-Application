@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather condition. As soon as we find a location that we want it'll show us the status give us an icon as well as our wind speed, temperature and precipitation. When the user enters our website, they can indent the city they want. At the same time, a photo of the indented city is adapted to the background. With the Toggle option, allows users to switch between metric and imperial units (e.g., Celsius and Fahrenheit, and the wind speed in km/h or mph). It triggers a new fetch of weather data with the selected unit.
+This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather condition. As soon as we find a location that we want it'll show us the status give us an icon as well as our wind speed, temperature, local time and precipitation. When the user enters our website, they can indent the city they want. At the same time, a photo of the indented city is adapted to the background. With the Toggle option, allows users to switch between metric and imperial units (e.g., Celsius and Fahrenheit, and the wind speed in km/h or mph). It triggers a new fetch of weather data with the selected unit.
 
 ## Project Requirements
 
