@@ -27,38 +27,32 @@ let weather = {
   },
 
   displayWeather: function(data) {
-    const { name, timezone } = data;
-    const { icon, description } = data.weather[0];
-    const { temp, humidity } = data.main;
-    const { speed } = data.wind;
+  const { name, timezone } = data;
+  const { icon, description } = data.weather[0];
+  const { temp, humidity } = data.main;
+  const { speed } = data.wind;
 
-    const temperature = isMetric
-      ? temp + "°C"
-      : ((temp * 9) / 5 + 32).toFixed(1) + "°F";
-    const windSpeed = isMetric
-      ? speed + " km/h"
-      : (speed * 0.621371).toFixed(1) + " mph";
+  const temperature = isMetric ? temp + "°C" : temp + "°F";
+  const windSpeed = isMetric ? speed + " km/h" : (speed * 0.621371).toFixed(1) + " mph";
 
-    // Display local time
-    const localTime = this.getLocalTime(timezone);
-    document.querySelector(".local-time").innerText = "Local Time: " + localTime;
+  // Display local time
+  const localTime = this.getLocalTime(timezone);
+  document.querySelector(".local-time").innerText = "Local Time: " + localTime;
 
+  document.querySelector(".city").innerText = "Weather in " + name;
+  document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
+  document.querySelector(".description").innerText = description;
+  document.querySelector(".temp").innerText = temperature;
+  document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
+  document.querySelector(".wind").innerText = "Wind speed: " + windSpeed;
 
-    document.querySelector(".city").innerText = "Weather in " + name;
-    document.querySelector(".icon").src =
-      "https://openweathermap.org/img/wn/" + icon + ".png";
-    document.querySelector(".description").innerText = description;
-    document.querySelector(".temp").innerText = temperature;
-    document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
-    document.querySelector(".wind").innerText = "Wind speed: " + windSpeed;
+  // Set background image
+  const backgroundImageUrl = 'https://source.unsplash.com/1600x900/?' + name;
+  document.body.style.backgroundImage = "url('" + backgroundImageUrl + "')";
 
-    // Set background image
-    const backgroundImageUrl = 'https://source.unsplash.com/1600x900/?' + name;
-    document.body.style.backgroundImage = "url('" + backgroundImageUrl + "')";
-
-    // Remove loading class
-    document.querySelector(".weather").classList.remove("loading");
-  },
+  // Remove loading class
+  document.querySelector(".weather").classList.remove("loading");
+},
 
 handleFetchError: function(error) {
   // Display error message 
