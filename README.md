@@ -28,8 +28,8 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - ![Express.js](https://img.icons8.com/color/48/000000/express.png) **Express.js:** Server-side framework to manage API requests and serve static files.
 - ![OpenWeatherMap](https://img.icons8.com/ios-filled/50/000000/partly-cloudy-day.png) **OpenWeatherMap API:** Weather data retrieval.
 - ![Fetch API](https://img.icons8.com/material-outlined/24/000000/api.png) **Fetch API:** Making HTTP requests.
-- ![Font Awesome](https://img.icons8.com/ios/50/000000/font-awesome.png) **Font Awesome:** Icon library for UI elements.
-- ![Responsive Design](https://img.icons8.com/material-outlined/24/000000/responsive.png) **Responsive Design:** Media queries for mobile-friendly layout.
+- ![Font Awesome](https://img.shields.io/badge/Font_Awesome-000000?style=flat&logo=font-awesome&logoColor=339AF0) **Font Awesome:** Icon library for UI elements.
+- ![Responsive Design](https://img.shields.io/badge/Responsive_Design-000000?style=flat&logo=responsive&logoColor=FFD700) **Responsive Design:** Media queries for mobile-friendly layout.
 
 ## Features of the Application
 
