@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Weather App</h1>
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Enter city" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="toggle-units hidden">
+          <i class="fa-solid fa-toggle-on"></i>
+        </button>
+      </div>
+      <div class="weather hidden">
+        <h2 class="city"></h2>
+        <h1 class="temp"></h1>
+        <div class="flex">
+          <img src="" alt="" class="icon" />
+          <div class="description"></div>
+        </div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+        <div class="local-time"></div>
+
+        <div class="error-message"></div>
+        <div class="hourly-forecast"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

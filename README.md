@@ -2,43 +2,52 @@
 
 ## Project Overview
 
-This weather application is designed to provide users with accurate and real-time weather information. Users can access current weather condition. As soon as we find a location that we want it'll show us the status give us an icon as well as our wind speed, temperature, local time and precipitation. When the user enters our website, they can indent the city they want. At the same time, a photo of the indented city is adapted to the background. With the Toggle option, allows users to switch between metric and imperial units (e.g., Celsius and Fahrenheit, and the wind speed in km/h or mph). It triggers a new fetch of weather data with the selected unit.
+This weather application provides users with accurate, real-time weather information for a selected location. Users can view the current weather conditions, including temperature, wind speed, and precipitation. The application also displays a background image of the city entered by the user. Users can toggle between metric and imperial units for temperature and wind speed.
 
 ## Project Requirements
 
-1. The app needs to be responsive.
-2. The app needs to be a single page application. That means there should be only one index.html file and JavaScript needs to update the HTML using DOM manipulation.
-3. The app needs to interact with an API to grab data.
-4. The app needs to have loading/error handling for the interaction with the API and needs to show this to the user, not just a console.log.
-5. The app needs some user interaction such that you need to grab different data from the API. So you cannot just grab everything from the API and store it locally with one fetch.
+1. **Responsiveness:** The application should be responsive and usable on various devices.
+2. **Single Page Application:** The application is a single-page application, meaning only one `index.html` file is used, and JavaScript updates the HTML using DOM manipulation.
+3. **API Interaction:** The application interacts with an API to fetch weather data and background images.
+4. **Loading/Error Handling:** The application handles loading states and errors gracefully, displaying appropriate messages to the user.
+5. **User Interaction:** The application allows users to fetch different data from the API based on their input.
 
+## Features of the Application
 
-## Must-Have Features
-
-- [x] **Current Weather Conditions:** Display real-time temperature, wind speed, and precipitation for the user's selected location.
-
-- [x] **Background Image:** The user should see a photo of the city they type in the search bar. 
-
-- [x] **Toggle feature:** The user should be able to change the units of temperature and wind speed. 
-
-
-## Nice-to-Have Features
-
-- [-] **Interactive Maps:** Integrate maps for users to visualize weather patterns and explore forecasts geographically.
-
-- [-] **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
-
-- [-] **Dark Mode:** Implement a visually pleasing dark mode for better user experience during low-light conditions.
+- **Current Weather Conditions:** Displays real-time temperature, wind speed, and precipitation for the user's selected location.
+- **Background Image:** Shows a photo of the city typed in the search bar as the background.
+- **Toggle Feature:** Allows users to switch between metric and imperial units for temperature and wind speed.
+- **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
 
 ## Public APIs in Use
 
-I need to have some API to access in order to get both the weather information as well as the location information.
-- To get the weather information I am going to use this API = **(https://openweathermap.org)**
+- **Weather Information:** [OpenWeatherMap API](https://openweathermap.org)
+- **Background Images:** [Unsplash API](https://unsplash.com/developers) or any other suitable image API.
 
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd weather-app
+   ```
+
+3. Open `index.html` in your browser.
+
+## Usage
+
+1. Enter a city name in the search bar and click the search button.
+2. View the current weather conditions and background image for the city.
+3. Use the toggle button to switch between Celsius and Fahrenheit.
 
 ## Contact Information
 
 For any inquiries or feedback, please contact:
 
-[Burhan Elaldi]  
-[burhanelaldi97@gmail.com]
+[Burhan Elaldi](mailto:burhanelaldi97@gmail.com)
