@@ -22,14 +22,14 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 
 ## Technologies Used
 
-- ![HTML5](https://img.shields.io/badge/HTML5-000000?style=flat&logo=html5&logoColor=E34F26) **HTML5:** Structure of the web page.
-- ![CSS3](https://img.shields.io/badge/CSS3-000000?style=flat&logo=css3&logoColor=1572B6) **CSS3:** Styling and layout.
-- ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat&logo=javascript&logoColor=F7DF1E) **JavaScript ES6+:** Dynamic content and interactions.
-- ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=000000) **Express.js:** Server-side framework to manage API requests and serve static files.
-- ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-000000?style=flat&logo=weather&logoColor=00A3E0) **OpenWeatherMap API:** Weather data retrieval.
-- ![Fetch API](https://img.shields.io/badge/Fetch_API-000000?style=flat&logo=api&logoColor=F8F8F8) **Fetch API:** Making HTTP requests.
-- ![Font Awesome](https://img.shields.io/badge/Font_Awesome-000000?style=flat&logo=font-awesome&logoColor=339AF0) **Font Awesome:** Icon library for UI elements.
-- ![Responsive Design](https://img.shields.io/badge/Responsive_Design-000000?style=flat&logo=responsive&logoColor=FFD700) **Responsive Design:** Media queries for mobile-friendly layout.
+- ![HTML5](https://img.icons8.com/color/48/000000/html-5.png) **HTML5:** Structure of the web page.
+- ![CSS3](https://img.icons8.com/color/48/000000/css3.png) **CSS3:** Styling and layout.
+- ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript ES6+:** Dynamic content and interactions.
+- ![Express.js](https://img.icons8.com/color/48/000000/express.png) **Express.js:** Server-side framework to manage API requests and serve static files.
+- ![OpenWeatherMap](https://img.icons8.com/ios-filled/50/000000/partly-cloudy-day.png) **OpenWeatherMap API:** Weather data retrieval.
+- ![Fetch API](https://img.icons8.com/material-outlined/24/000000/api.png) **Fetch API:** Making HTTP requests.
+- ![Font Awesome](https://img.icons8.com/ios/50/000000/font-awesome.png) **Font Awesome:** Icon library for UI elements.
+- ![Responsive Design](https://img.icons8.com/material-outlined/24/000000/responsive.png) **Responsive Design:** Media queries for mobile-friendly layout.
 
 
 ## Features of the Application
