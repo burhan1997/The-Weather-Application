@@ -14,6 +14,18 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 4. **Loading/Error Handling:** The application handles loading states and errors gracefully, displaying appropriate messages to the user.
 5. **User Interaction:** The application allows users to fetch different data from the API based on their input.
 
+## Features of the Application
+
+- **Current Weather Conditions:** Displays real-time temperature, wind speed, and precipitation for the user's selected location.
+- **Background Image:** Shows a photo of the city typed in the search bar as the background.
+- **Toggle Feature:** Allows users to switch between metric and imperial units for temperature and wind speed.
+- **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
+
+## Public APIs in Use
+
+- **Weather Information:** [OpenWeatherMap API](https://openweathermap.org)
+- **Background Images:** [Unsplash API](https://unsplash.com/developers) or any other suitable image API.
+
 ## Application Screenshots
 <img width="1512" alt="Ekran Resmi 2024-08-24 21 43 16" src="https://github.com/user-attachments/assets/0a225f1b-e58b-4a18-ad58-8c02b9fc04cd">
 <img width="1512" alt="Ekran Resmi 2024-08-24 21 43 34" src="https://github.com/user-attachments/assets/fefce89c-b2b2-4651-a8d8-fc44ec444a9d">
@@ -28,20 +40,6 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) Server-side framework to manage API requests and serve static files.
 - ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-%23007A8D.svg?style=for-the-badge&logo=font-awesome&logoColor=white) Icon library for UI elements.
 - ![Responsive Design](https://img.shields.io/badge/Responsive%20Design-%235C2D91.svg?style=for-the-badge&logo=responsive&logoColor=white) Media queries for mobile-friendly layout.
-
-  
-## Features of the Application
-
-- **Current Weather Conditions:** Displays real-time temperature, wind speed, and precipitation for the user's selected location.
-- **Background Image:** Shows a photo of the city typed in the search bar as the background.
-- **Toggle Feature:** Allows users to switch between metric and imperial units for temperature and wind speed.
-- **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
-
-
-## Public APIs in Use
-
-- **Weather Information:** [OpenWeatherMap API](https://openweathermap.org)
-- **Background Images:** [Unsplash API](https://unsplash.com/developers) or any other suitable image API.
 
 ## Installation and Setup
 
