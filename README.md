@@ -19,6 +19,12 @@ This weather application provides users with accurate, real-time weather informa
 - **Toggle Feature:** Allows users to switch between metric and imperial units for temperature and wind speed.
 - **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
 
+## Application Screenshots
+<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 16" src="https://github.com/user-attachments/assets/0a225f1b-e58b-4a18-ad58-8c02b9fc04cd">
+<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 34" src="https://github.com/user-attachments/assets/fefce89c-b2b2-4651-a8d8-fc44ec444a9d">
+<img width="1511" alt="Ekran Resmi 2024-08-24 21 43 50" src="https://github.com/user-attachments/assets/c22aa131-8766-4d19-af7e-7e1d62f12f57">
+<img width="1511" alt="Ekran Resmi 2024-08-24 21 44 02" src="https://github.com/user-attachments/assets/34bd738b-8174-45ef-926c-d94f164380d9">
+
 ## Public APIs in Use
 
 - **Weather Information:** [OpenWeatherMap API](https://openweathermap.org)
