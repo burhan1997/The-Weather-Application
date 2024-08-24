@@ -31,7 +31,6 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - ![Font Awesome](https://img.icons8.com/ios/50/000000/font-awesome.png) **Font Awesome:** Icon library for UI elements.
 - ![Responsive Design](https://img.icons8.com/material-outlined/24/000000/responsive.png) **Responsive Design:** Media queries for mobile-friendly layout.
 
-
 ## Features of the Application
 
 - **Current Weather Conditions:** Displays real-time temperature, wind speed, and precipitation for the user's selected location.
