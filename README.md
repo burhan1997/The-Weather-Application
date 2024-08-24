@@ -27,8 +27,8 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - **Background Images:** [Unsplash API](https://unsplash.com/developers) or any other suitable image API.
 
 ## Application Screenshots
-<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 16" src="https://github.com/user-attachments/assets/0a225f1b-e58b-4a18-ad58-8c02b9fc04cd">
-<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 34" src="https://github.com/user-attachments/assets/fefce89c-b2b2-4651-a8d8-fc44ec444a9d">
+<img width="1512" alt="Ekran Resmi 2024-08-25 00 43 08" src="https://github.com/user-attachments/assets/b504808b-461b-4a57-9dcb-23d141935fad">
+<img width="1512" alt="Ekran Resmi 2024-08-25 00 43 18" src="https://github.com/user-attachments/assets/74471900-5021-4076-8037-663fec302cde">
 <img width="1511" alt="Ekran Resmi 2024-08-24 21 43 50" src="https://github.com/user-attachments/assets/c22aa131-8766-4d19-af7e-7e1d62f12f57">
 <img width="1511" alt="Ekran Resmi 2024-08-24 21 44 02" src="https://github.com/user-attachments/assets/34bd738b-8174-45ef-926c-d94f164380d9">
 
@@ -37,7 +37,6 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) Structure of the web page.
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) Styling and layout.
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) Dynamic content and interactions.
-- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) Server-side framework to manage API requests and serve static files.
 - ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-%23007A8D.svg?style=for-the-badge&logo=font-awesome&logoColor=white) Icon library for UI elements.
 - ![Responsive Design](https://img.shields.io/badge/Responsive%20Design-%235C2D91.svg?style=for-the-badge&logo=responsive&logoColor=white) Media queries for mobile-friendly layout.
 
