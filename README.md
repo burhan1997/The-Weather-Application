@@ -30,7 +30,8 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 <img width="1512" alt="Ekran Resmi 2024-08-25 00 43 08" src="https://github.com/user-attachments/assets/b504808b-461b-4a57-9dcb-23d141935fad">
 <img width="1512" alt="Ekran Resmi 2024-08-25 00 43 18" src="https://github.com/user-attachments/assets/74471900-5021-4076-8037-663fec302cde">
 <img width="1511" alt="Ekran Resmi 2024-08-24 21 43 50" src="https://github.com/user-attachments/assets/c22aa131-8766-4d19-af7e-7e1d62f12f57">
-<img width="1511" alt="Ekran Resmi 2024-08-24 21 44 02" src="https://github.com/user-attachments/assets/34bd738b-8174-45ef-926c-d94f164380d9">
+<img width="1512" alt="Ekran Resmi 2024-08-25 00 44 41" src="https://github.com/user-attachments/assets/5782518b-8c53-43d5-8232-8343dd7afcb6">
+
 
 ## Technologies Used
 
