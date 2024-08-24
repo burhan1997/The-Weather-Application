@@ -1,16 +1,34 @@
 let isMetric = true;
 
-let weather = {
+const weather = {
   fetchWeather: function (city) {
     document.querySelector(".weather").classList.add("loading");
     document.querySelector(".error-message").innerText = "";
 
-    fetch(`/weather?city=${city}&units=${isMetric ? "metric" : "imperial"}`)
-      .then((response) => response.json())
-      .then((data) => {
-        this.displayWeather(data.weather);
-        this.displayHourlyForecast(data.forecast);
-        this.fetchBackgroundImage(city);
+    Promise.all([
+      fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${
+          isMetric ? "metric" : "imperial"
+        }&appid=e9ee00dae53fe669f88da411fdbdb25c`
+      ),
+      fetch(
+        `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=${
+          isMetric ? "metric" : "imperial"
+        }&appid=e9ee00dae53fe669f88da411fdbdb25c`
+      ),
+      fetch(
+        `https://api.unsplash.com/search/photos?query=${city}&client_id=Z0NwQqBxWAi9BFXmK9rc4ihrH7KSUS3dKCEEtHLWF0E&orientation=landscape&per_page=1`
+      ),
+    ])
+      .then(async ([weatherResponse, forecastResponse, backgroundResponse]) => {
+        if (!weatherResponse.ok) throw new Error("City not found");
+        const weatherData = await weatherResponse.json();
+        const forecastData = await forecastResponse.json();
+        const backgroundData = await backgroundResponse.json();
+
+        this.displayWeather(weatherData);
+        this.displayHourlyForecast(forecastData);
+        this.fetchBackgroundImage(backgroundData);
       })
       .catch((error) => this.handleFetchError(error));
   },
@@ -66,22 +84,15 @@ let weather = {
     });
   },
 
-  fetchBackgroundImage: function (city) {
-    fetch(`/background?city=${city}`)
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.results.length > 0) {
-          const imageUrl = data.results[0].urls.full;
-          document.body.style.backgroundImage = `url(${imageUrl})`;
-          document.body.style.backgroundSize = "cover";
-          document.body.style.backgroundPosition = "center";
-        } else {
-          console.error("No image found for this city.");
-        }
-      })
-      .catch((error) => {
-        console.error("Error fetching image:", error);
-      });
+  fetchBackgroundImage: function (data) {
+    if (data.results.length > 0) {
+      const imageUrl = data.results[0].urls.full;
+      document.body.style.backgroundImage = `url(${imageUrl})`;
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundPosition = "center";
+    } else {
+      console.error("No image found for this city.");
+    }
   },
 
   handleFetchError: function (error) {
