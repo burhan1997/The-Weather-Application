@@ -11,7 +11,12 @@ const UNSPLASH_API_KEY = "Z0NwQqBxWAi9BFXmK9rc4ihrH7KSUS3dKCEEtHLWF0E";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-app.use(express.static(path.join(__dirname, "public")));
+
+// Artık public klasörünü kullanmıyoruz, bu satır kaldırılabilir
+// app.use(express.static(path.join(__dirname, "public")));
+
+// Yeni statik dosya sunumunu root dizininden yapıyoruz
+app.use(express.static(__dirname));
 
 app.get("/weather", async (req, res) => {
   const city = req.query.city;
