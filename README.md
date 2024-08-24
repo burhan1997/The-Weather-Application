@@ -28,8 +28,6 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) Styling and layout.
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) Dynamic content and interactions.
 - ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) Server-side framework to manage API requests and serve static files.
-- ![OpenWeatherMap](https://img.icons8.com/ios-filled/32/000000/partly-cloudy-day.png) Weather data retrieval.
-- ![Fetch API](https://img.icons8.com/material-outlined/24/000000/api.png) Making HTTP requests.
 - ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-%23007A8D.svg?style=for-the-badge&logo=font-awesome&logoColor=white) Icon library for UI elements.
 - ![Responsive Design](https://img.shields.io/badge/Responsive%20Design-%235C2D91.svg?style=for-the-badge&logo=responsive&logoColor=white) Media queries for mobile-friendly layout.
 
