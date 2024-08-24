@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This weather application provides users with accurate, real-time weather information for a selected location. Users can view the current weather conditions, including temperature, wind speed, and precipitation. The application also displays a background image of the city entered by the user. Users can toggle between metric and imperial units for temperature and wind speed.
+This weather application provides users with accurate, real-time weather information for a selected location. Users can view the current weather conditions, including temperature, wind speed, and precipitation. Additionally, the application displays a background image of the city entered by the user. Users can toggle between metric and imperial units for temperature and wind speed. 
+
+Furthermore, the app includes hourly forecasts, allowing users to see detailed weather information for the upcoming hours. This feature provides insights into temperature changes and weather conditions throughout the day.
 
 ## Project Requirements
 
@@ -12,6 +14,24 @@ This weather application provides users with accurate, real-time weather informa
 4. **Loading/Error Handling:** The application handles loading states and errors gracefully, displaying appropriate messages to the user.
 5. **User Interaction:** The application allows users to fetch different data from the API based on their input.
 
+## Application Screenshots
+<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 16" src="https://github.com/user-attachments/assets/0a225f1b-e58b-4a18-ad58-8c02b9fc04cd">
+<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 34" src="https://github.com/user-attachments/assets/fefce89c-b2b2-4651-a8d8-fc44ec444a9d">
+<img width="1511" alt="Ekran Resmi 2024-08-24 21 43 50" src="https://github.com/user-attachments/assets/c22aa131-8766-4d19-af7e-7e1d62f12f57">
+<img width="1511" alt="Ekran Resmi 2024-08-24 21 44 02" src="https://github.com/user-attachments/assets/34bd738b-8174-45ef-926c-d94f164380d9">
+
+## Technologies Used
+
+- ![HTML5](https://img.shields.io/badge/HTML5-000000?style=flat&logo=html5&logoColor=E34F26) **HTML5:** Structure of the web page.
+- ![CSS3](https://img.shields.io/badge/CSS3-000000?style=flat&logo=css3&logoColor=1572B6) **CSS3:** Styling and layout.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat&logo=javascript&logoColor=F7DF1E) **JavaScript ES6+:** Dynamic content and interactions.
+- ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=000000) **Express.js:** Server-side framework to manage API requests and serve static files.
+- ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-000000?style=flat&logo=weather&logoColor=00A3E0) **OpenWeatherMap API:** Weather data retrieval.
+- ![Fetch API](https://img.shields.io/badge/Fetch_API-000000?style=flat&logo=api&logoColor=F8F8F8) **Fetch API:** Making HTTP requests.
+- ![Font Awesome](https://img.shields.io/badge/Font_Awesome-000000?style=flat&logo=font-awesome&logoColor=339AF0) **Font Awesome:** Icon library for UI elements.
+- ![Responsive Design](https://img.shields.io/badge/Responsive_Design-000000?style=flat&logo=responsive&logoColor=FFD700) **Responsive Design:** Media queries for mobile-friendly layout.
+
+
 ## Features of the Application
 
 - **Current Weather Conditions:** Displays real-time temperature, wind speed, and precipitation for the user's selected location.
@@ -19,11 +39,6 @@ This weather application provides users with accurate, real-time weather informa
 - **Toggle Feature:** Allows users to switch between metric and imperial units for temperature and wind speed.
 - **Hourly and Daily Forecasts:** Provide detailed forecasts for the upcoming hours and days.
 
-## Application Screenshots
-<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 16" src="https://github.com/user-attachments/assets/0a225f1b-e58b-4a18-ad58-8c02b9fc04cd">
-<img width="1512" alt="Ekran Resmi 2024-08-24 21 43 34" src="https://github.com/user-attachments/assets/fefce89c-b2b2-4651-a8d8-fc44ec444a9d">
-<img width="1511" alt="Ekran Resmi 2024-08-24 21 43 50" src="https://github.com/user-attachments/assets/c22aa131-8766-4d19-af7e-7e1d62f12f57">
-<img width="1511" alt="Ekran Resmi 2024-08-24 21 44 02" src="https://github.com/user-attachments/assets/34bd738b-8174-45ef-926c-d94f164380d9">
 
 ## Public APIs in Use
 
