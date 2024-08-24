@@ -27,7 +27,7 @@ Furthermore, the app includes hourly forecasts, allowing users to see detailed w
 - ![JavaScript](https://img.icons8.com/color/32/000000/javascript.png) **JavaScript ES6+:** Dynamic content and interactions.
 - ![Express.js](https://img.icons8.com/color/32/000000/express.png) **Express.js:** Server-side framework to manage API requests and serve static files.
 - ![OpenWeatherMap](https://img.icons8.com/ios-filled/32/000000/partly-cloudy-day.png) **OpenWeatherMap API:** Weather data retrieval.
-- ![Fetch API](https://img.icons8.com/material-outlined/24/000000/api.png) **Fetch API:** Making HTTP requests.
+- ![Fetch API](https://img.icons8.com/material-outlined/24/000000/api.png)   **Fetch API:** Making HTTP requests.
   
 ## Features of the Application
 
